@@ -1,7 +1,7 @@
 Mtfs
-Memory Table From Scratch component. Helps to restore memory tables after mysqld/system restart.
 =============
-## add to components section
+Memory Table From Scratch component. Helps to restore memory tables after mysqld/system restart.
+## Add to components section
 ```php
     'components' => array(
         'Mtfs' => array(
@@ -12,7 +12,7 @@ Memory Table From Scratch component. Helps to restore memory tables after mysqld
         ),
     ),
 ```
-## use from anywhere run() for restoring tables from config params
+## Use from anywhere run() for restoring tables from config params
 ```php
     Yii::app()->Mtfs->run();
 ```
